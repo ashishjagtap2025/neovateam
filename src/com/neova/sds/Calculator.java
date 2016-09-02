@@ -14,6 +14,8 @@ public class Calculator {
 	 */
 	public static void main(String[] args) {
 		System.out.println("Welcom to git  branching model :)");
-		//Your code will go here. add comments as much you want :)
+		
+		Multiplication multiplication =new Multiplication();
+		System.out.println("multiplication result :"+multiplication.multiplication(3, 5));
 	}
 }
