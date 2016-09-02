@@ -13,6 +13,7 @@ public class Calculator {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		System.out.println("Welcom to git  branching model :)");
+		//Your code will go here. add comments as much you want :)
 	}
 }
