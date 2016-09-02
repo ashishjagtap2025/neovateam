@@ -26,5 +26,11 @@ public class Calculator {
 		Division division = new Division();
 		int divRes = division.calculateDivision(a, b);
 		System.out.println("Division of a by b is: "+divRes);
+		
+		//		Calling calculateAddition() method of Addition class
+		Addition addition = new Addition();
+		int addRes = addition.calculateAddition(a, b);
+		System.out.println("Addition of a with b is: "+addRes);
+		
 	}
 }
