@@ -17,5 +17,10 @@ public class Calculator {
 		
 		Multiplication multiplication =new Multiplication();
 		System.out.println("multiplication result :"+multiplication.multiplication(3, 5));
+		//		Calling calculateDivision() method of Division class
+		Division division = new Division();
+		int divRes = division.calculateDivision(20, 10);
+		System.out.println("Division of 20 by 10 is: "+divRes);
+	}
 	}
 }
