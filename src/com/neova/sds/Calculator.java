@@ -23,5 +23,7 @@ public class Calculator {
 		int divRes = division.calculateDivision(a, b);
 		System.out.println("Division of a by b is: "+divRes);
 		System.out.println("i am  drecco9");
+	    System.out.println("End of Calculations.!");
+
 	}
 }
