@@ -14,11 +14,13 @@ public class Calculator {
 	 */
 	public static void main(String[] args) {
 		System.out.println("Welcom to git  branching model :)");
-		//Your code will go here. add comments as much you want :)
 		
-//		Calling calculateDivision() method of Division class
+		Multiplication multiplication =new Multiplication();
+		System.out.println("multiplication result :"+multiplication.multiplication(3, 5));
+		//		Calling calculateDivision() method of Division class
 		Division division = new Division();
 		int divRes = division.calculateDivision(20, 10);
 		System.out.println("Division of 20 by 10 is: "+divRes);
+	}
 	}
 }
