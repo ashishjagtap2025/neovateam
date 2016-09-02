@@ -26,5 +26,7 @@ public class Calculator {
 		Division division = new Division();
 		int divRes = division.calculateDivision(a, b);
 		System.out.println("Division of a by b is: "+divRes);
+	    System.out.println("End of Calculations.!");
+
 	}
 }
