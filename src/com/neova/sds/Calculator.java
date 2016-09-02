@@ -17,8 +17,9 @@ public class Calculator {
 		//Your code will go here. add comments as much you want :)
 		
 //		Calling calculateDivision() method of Division class
+		int a = 50, b= 25;
 		Division division = new Division();
-		int divRes = division.calculateDivision(20, 10);
-		System.out.println("Division of 20 by 10 is: "+divRes);
+		int divRes = division.calculateDivision(a, b);
+		System.out.println("Division of a by b is: "+divRes);
 	}
 }
